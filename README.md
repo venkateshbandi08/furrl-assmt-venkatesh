@@ -2,6 +2,9 @@
 
 ### The app is designed for the mobile-view and not for the large-screens
 
+## deployed link
+https://furrl-assmt-venkatesh.vercel.app/
+
 ### `npm start`
 
 Runs the app in the development mode.\

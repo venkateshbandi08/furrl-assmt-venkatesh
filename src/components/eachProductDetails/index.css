@@ -1,0 +1,110 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@media (max-width: 480px) {
+  .each-product-details-container {
+    position: relative;
+    padding-bottom: 60px; /* Add padding to make space for the fixed button */
+  }
+
+  .button-container-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .add-to-bag-button {
+    height: 40px;
+    width: 100%; /* Stretch the button row-wise */
+    background-color: violet;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0px;
+    font-weight: bold;
+    font-family: "Roboto";
+  }
+
+  .each-product-details-container {
+    min-height: 100vh;
+    padding: 10px;
+    padding-bottom: 60px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .image-slider-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .product-slide-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .product-details-product-name {
+    font-family: "Roboto";
+    margin-top: 40px;
+  }
+  .product-details-price-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -20px;
+  }
+  .product-details-price {
+    font-family: "Roboto";
+    font-size: 19px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  .product-details-mrp {
+    font-family: "Roboto";
+    text-decoration: line-through;
+    margin-right: 10px;
+    color: gray;
+  }
+  .product-details-discountprice {
+    color: green;
+    border: 1px green solid;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  .coupon-container {
+    border: 2px rgb(241, 75, 241) dashed;
+    background-color: rgb(245, 165, 245);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+  }
+  .coupon-icon {
+    font-size: 25px;
+    margin-top: -15px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+  }
+  .coupon-name {
+    font-weight: bold;
+    color: black;
+    font-size: 17px;
+  }
+  .product-description-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px gray solid;
+    margin-top: 8px;
+  }
+  .product-description-heading {
+    margin-left: 10px;
+  }
+}

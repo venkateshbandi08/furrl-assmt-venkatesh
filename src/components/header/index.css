@@ -1,0 +1,55 @@
+.navbar-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.navbar-container.hidden {
+  transform: translateY(-100%);
+}
+
+.navbar-container.visible {
+  transform: translateY(0);
+}
+
+.nav-heading {
+  font-size: 24px;
+}
+
+.nav-icons-container {
+  display: flex;
+}
+
+.nav-icon-item {
+  font-size: 24px;
+  color: black;
+}
+
+@media (max-width: 480px) {
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-heading {
+    font-family: "Roboto";
+    color: rgb(218, 74, 218);
+  }
+  .nav-icons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nav-icon-item {
+    font-size: 25px;
+    margin-right: 20px;
+  }
+}

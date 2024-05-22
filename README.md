@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+### The app is designed for the mobile-view and not for the large-screens
+
 ### `npm start`
 
 Runs the app in the development mode.\

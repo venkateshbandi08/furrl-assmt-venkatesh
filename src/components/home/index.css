@@ -1,6 +1,7 @@
 @media (max-width: 480px) {
   .home-container {
     min-height: 100vh;
+    overflow-x: hidden;
   }
   .products-listing-details-container {
     padding-left: 10px;

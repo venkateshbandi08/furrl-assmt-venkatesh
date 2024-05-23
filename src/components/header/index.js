@@ -26,7 +26,7 @@ const Header = () => {
     <nav className={`navbar-container ${showNavbar ? "visible" : "hidden"}`}>
       <div></div>
       <div>
-        <h2 className="nav-heading"> Furrrl </h2>
+        <h2 className="nav-heading"> Furrl </h2>
       </div>
       <div className="nav-icons-container">
         <a href="https://furrl.in/wishlist">
